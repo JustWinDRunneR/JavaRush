@@ -2,6 +2,7 @@ package com.javarush.task.task08.task0830;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 
 /* 
 Задача по алгоритмам
@@ -24,6 +25,9 @@ public class Solution {
 
     public static void sort(String[] array) {
         //напишите тут ваш код
+
+        Arrays.sort(array);
+        isGreaterThan(array[0], array[1]);
     }
 
     //Метод для сравнения строк: 'а' больше чем 'b'
